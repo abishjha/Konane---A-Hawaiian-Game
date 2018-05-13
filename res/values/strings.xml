@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Konane</string>
+    <string name="pass">Pass</string>
+    <string name="current_player">MOVE TURN :</string>
+    <string name="move_button">MOVE</string>
+
+    <string name="final_display">|| CONGRATULATIONS ||</string>
+    <string name="new_game">New Game</string>
+    <string name="restart">Restart</string>
+    <string name="reset">Reset Move</string>
+    <string name="Help">KONANE -- A Hawaiian Game\n\nThe game is played by two players.\nBLACK always starts the game with turns alternating after that.\nThe game is like checkers where a player can capture their opponents piece by hopping over it with one of their own and landing in an empty slot.\nIf a player has no moves, he/she can pass and the other player plays either till he/she has no more moves or the other player can move again.\nEvery stone captured increases players score by 1.\nMultiple hops are allowed in a turn but only with the same piece.</string>
+    <string name="load_game">Load Game</string>
+    <string name="depthfs">Depth First Search</string>
+    <string name="breadthfs">Breadth First Search</string>
+    <string name="bestfs">Best First Search</string>
+    <string name="Black">Black</string>
+    <string name="White">White</string>
+</resources>
