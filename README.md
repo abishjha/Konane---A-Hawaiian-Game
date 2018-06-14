@@ -9,10 +9,12 @@ developer: Abish Jha
 about the game: 
 
 The Players
+
 Konane is a Hawaiian game for two players.
 
 
 The Board
+
 The board consists of 36 puka or slots, arranged in 6 rows X 6 columns. Initially, it is filled with 18 black stones (ili ele) and 18 white stones (ili kea) as follows:
   B W B W B W
   W B W B W B
