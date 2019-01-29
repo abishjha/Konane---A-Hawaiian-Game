@@ -35,8 +35,7 @@ the board.
 
 When a fresh game is started, determine the player of black stones by having the human 
 player guess which of the two randomly removed stones is black. If the human player 
-guesses correctly, the player plays black. Otherwise, the computer plays black. Black 
-player always plays first.
+guesses correctly, the player plays black. Otherwise, the computer plays black.
 
 <p>
   The player playing black stones plays first, followed by the player playing white stones.
