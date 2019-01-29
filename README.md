@@ -5,8 +5,8 @@
 <h2>The Players</h2>
 
 Konane is a Hawaiian game for two players. In our case, the two players will be the computer and the human user
-of your program.
-The computer must play to win.
+of the program.
+The computer plays to win.
 
 <h2>The Board</h2>
 
