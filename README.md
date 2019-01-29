@@ -1,7 +1,7 @@
 <html>
 <body>
 <h1>Konane</h1>
-
+  
 <h2>The Players</h2>
 
 Konane is a Hawaiian game for two players. In our case, the two players will be the computer and the human user
