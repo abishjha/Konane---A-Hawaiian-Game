@@ -103,10 +103,12 @@ human player plays white (this is chosen at the beginning of the game depending 
 
 <b>Purpose:</b> Minimax search, Alpha-beta pruning.
 <p>
-<b>The computer plays to win.</b> In order to do so, it must use <b>minimax</b>, with or without alpha-beta pruning (to the selected ply) to determine its next move.  
+The computer plays to win. In order to do so, it uses minimax, with or without alpha-beta pruning (to the selected ply) to determine its next move.  
 
 Human player is also able to ask for help from your program on each move. When asked, the program uses its own algorithm to suggest the best next move for the human player.
 </p>
+
+<hr>
 
 <b>Purpose:</b> Heuristics, blind searches (depth-first and breadth-first searches), heuristic searches (best-first search  and branch-and-bound search)
 <p>
