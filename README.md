@@ -71,12 +71,8 @@ rules of the game.
 After each turn, the scores of the two players should be displayed.
 </ul>
 
+<h2>Serialization from and to text file</h2>
 
-<h1>Search algorithms for Konane</h1>
-
-
-<b>Purpose:</b> Heuristics, blind searches (depth-first and breadth-first searches), heuristic searches (best-first search  and branch-and-bound search)
-<p>
 <ul>
 <li> Read the current state of the game from a serialized text file and
 load it. The format for serialization is as follows:
@@ -97,6 +93,12 @@ load it. The format for serialization is as follows:
 In the above game, black has 6 points after having captured 6 white stones and white has 4 points
 after having captured 4 black stones. It is white player's turn next.
 </ul>
+
+
+<h2>Search algorithms for Konane</h2>
+
+<b>Purpose:</b> Heuristics, blind searches (depth-first and breadth-first searches), heuristic searches (best-first search  and branch-and-bound search)
+<p>
 
 First, implement the following algorithms:
 <ul>
