@@ -10,7 +10,7 @@ The computer must play to win.
 
 <h2>The Board</h2>
 
-The board consists of 36 puka or slots, arranged in 6 rows X 6 columns.
+The main board size choice consists of 36 puka or slots, arranged in 6 rows X 6 columns.
 Initially, it is filled with 18 black stones (ili ele) and 18 white stones (ili kea)
 as follows:
 <pre>
@@ -21,6 +21,8 @@ as follows:
   B W B W B W
   W B W B W B  
   </pre>
+  
+Alternatively, the board can be 8 X 8 or 10 X 10 - when starting a new game, the user is asked for the size.
 
 <h2>The Objective</h2>
 
@@ -31,9 +33,10 @@ The player who earns the most points wins.
 In the beginning, the computer randomly removes one black and one white stone from 
 the board.
 
-It gives the human player the option of choosing the left or the right hand,
-each hand bearing one of the two picked stones. The color of the stone 
-in the hand picked by the human player will now be the human player's color.
+When a fresh game is started, determine the player of black stones by having the human 
+player guess which of the two randomly removed stones is black. If the human player 
+guesses correctly, the player plays black. Otherwise, the computer plays black. Black 
+player always plays first.
 
 <p>
   The player playing black stones plays first, followed by the player playing white stones.
@@ -88,14 +91,23 @@ load it. The format for serialization is as follows:
   B W B O O W
   W B W O O B  
   Next Player: White
+  Human: White
 </pre>
 <hr>
 In the above game, black has 6 points after having captured 6 white stones and white has 4 points
-after having captured 4 black stones. It is white player's turn next.
+after having captured 4 black stones. It is white player's turn next. The last entry means that the 
+human player plays white (this is chosen at the beginning of the game depending on the human choice).
 </ul>
 
 
 <h2>Search algorithms for Konane</h2>
+
+<b>Purpose:</b> Minimax search, Alpha-beta pruning.
+<p>
+<b>The computer plays to win.</b> In order to do so, it must use <b>minimax</b>, with or without alpha-beta pruning (to the selected ply) to determine its next move.  
+
+Human player is also able to ask for help from your program on each move. When asked, the program uses its own algorithm to suggest the best next move for the human player.
+</p>
 
 <b>Purpose:</b> Heuristics, blind searches (depth-first and breadth-first searches), heuristic searches (best-first search  and branch-and-bound search)
 <p>
